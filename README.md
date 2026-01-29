@@ -26,22 +26,22 @@ Menu options
 - Memorable password:
   - Choose number of words
   - Choose casing (lower, upper, title, random)
-  - Output example: Tiger3-mountain8-river1
+
 - Random password:
   - Choose password length
   - Choose whether punctuation is included
   - Optionally enter disallowed characters
-  - Output example: A9f!pR2@kL
+  
 
 Confirm requirement (generate 1000 passwords)
 To confirm folder creation and logging works, the script includes a function that generates 1000 passwords
 with the type chosen randomly each time.
 - In password_generator.py, uncomment:
-  generate_1000_randomly()
+  generate_1000_passwords()
 - Run the script again. It will append 1000 new entries across both log files.
 
 Modules used
-- random: selecting random words, digits, and characters
-- string: character pools (letters, digits, punctuation)
-- datetime: timestamps (day, date, time)
-- pathlib / os: directory creation and file paths
+- random
+- string
+- os / os.path
+- time

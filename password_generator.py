@@ -178,6 +178,6 @@ def generate_1000_passwords(words_file="top_english_nouns_lower_100000.txt"):
 if __name__ == "__main__":
     run_password_generator()
 
-    #Uncomment this line to generate 1000 passwords for the assignment requirement:
+    #Uncomment the line below to generate 1000 passwords for the assignment requirement:
     #generate_1000_passwords()
         
